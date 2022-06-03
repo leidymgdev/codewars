@@ -3,6 +3,7 @@ import FunctionalAddition from '../components/FunctionalAddition';
 import FunctionInAFunction from '../components/FunctionInAFunction';
 import Mumbling from '../components/Mumbling';
 import ReduceButGrow from '../components/ReduceButGrow';
+import ReverseWords from '../components/ReverseWords';
 
 type JSXComponent = () => JSX.Element
 
@@ -42,5 +43,11 @@ export const routes: Route[] = [
         path: 'reduce-but-grow',
         Component: ReduceButGrow,
         name: 'Reduce but Grow'
+    },
+    {
+        to: '/reverse-words',
+        path: 'reverse-words',
+        Component: ReverseWords,
+        name: 'Reverse Words'
     }
 ];
