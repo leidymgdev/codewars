@@ -2,6 +2,7 @@ import FormatStringNames  from '../components/FormatStringNames';
 import FunctionalAddition from '../components/FunctionalAddition';
 import FunctionInAFunction from '../components/FunctionInAFunction';
 import Mumbling from '../components/Mumbling';
+import ReduceButGrow from '../components/ReduceButGrow';
 
 type JSXComponent = () => JSX.Element
 
@@ -35,5 +36,11 @@ export const routes: Route[] = [
         path: 'functional-addition',
         Component: FunctionalAddition,
         name: 'Functional Addition'
+    },
+    {
+        to: '/reduce-but-grow',
+        path: 'reduce-but-grow',
+        Component: ReduceButGrow,
+        name: 'Reduce but Grow'
     }
 ];
