@@ -1,4 +1,5 @@
 import FormatStringNames  from '../components/FormatStringNames';
+import Mumbling from '../components/Mumbling';
 
 type JSXComponent = () => JSX.Element
 
@@ -14,5 +15,11 @@ export const routes: Route[] = [
         path: 'format-string-names',
         Component: FormatStringNames,
         name: 'Format String Names'
+    },
+    {
+        to: '/mumbling',
+        path: 'mumbling',
+        Component: Mumbling,
+        name: 'Mumbling'
     }
 ];

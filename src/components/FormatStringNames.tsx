@@ -23,7 +23,7 @@ const FormatStringNames = () => {
       <span>
         Return: a string formatted as a list of names separated by commas except
         for the last two names, which should be separated by an ampersand.
-      </span>{" "}
+      </span>
       <br /> <br />
       {stringNames([
         { name: "Bart" },
