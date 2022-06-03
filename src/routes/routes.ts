@@ -1,4 +1,5 @@
 import FormatStringNames  from '../components/FormatStringNames';
+import FormTheMinimum from '../components/FormTheMinimum';
 import FunctionalAddition from '../components/FunctionalAddition';
 import FunctionInAFunction from '../components/FunctionInAFunction';
 import Mumbling from '../components/Mumbling';
@@ -49,5 +50,11 @@ export const routes: Route[] = [
         path: 'reverse-words',
         Component: ReverseWords,
         name: 'Reverse Words'
+    },
+    {
+        to: '/form-the-minimum',
+        path: 'form-the-minimum',
+        Component: FormTheMinimum,
+        name: 'Form the minimum'
     }
 ];
