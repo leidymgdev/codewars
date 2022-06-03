@@ -19,21 +19,14 @@ const FormatStringNames = () => {
 
   return (
     <>
-      <span>Given: an array containing hashes of names</span> <br />
-      <span>
-        Return: a string formatted as a list of names separated by commas except
-        for the last two names, which should be separated by an ampersand.
-      </span>
+      Given: an array containing hashes of names <br />
+      Return: a string formatted as a list of names separated by commas except
+      for the last two names, which should be separated by an ampersand.
       <br /> <br />
-      {stringNames([
-        { name: "Bart" },
-        { name: "Lisa" },
-        { name: "Maggie" },
-      ])}{" "}
-      <br />
+      {stringNames([{ name: "Bart" }, { name: "Lisa" }, { name: "Maggie" }])}<br />
       {stringNames([{ name: "Bart" }, { name: "Lisa" }])} <br />
       {stringNames([{ name: "Bart" }])} <br />
-      {stringNames([])}
+     {stringNames([])}
     </>
   );
 };

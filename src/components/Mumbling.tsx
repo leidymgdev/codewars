@@ -13,9 +13,9 @@ const Mumbling = () => {
     <>
       This time no story, no theory. The examples below show you how to write
       function accum: <br /> <br />
-      {accum("abcd")} <br />
-      {accum("RqaEzty")} <br />
-      {accum("cwAt")}
+      abcd = {accum("abcd")} <br />
+      RqaEzty = {accum("RqaEzty")} <br />
+      cwAt ={accum("cwAt")}
     </>
   );
 };

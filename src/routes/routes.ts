@@ -1,4 +1,5 @@
 import FormatStringNames  from '../components/FormatStringNames';
+import FunctionInAFunction from '../components/FunctionInAFunction';
 import Mumbling from '../components/Mumbling';
 
 type JSXComponent = () => JSX.Element
@@ -21,5 +22,11 @@ export const routes: Route[] = [
         path: 'mumbling',
         Component: Mumbling,
         name: 'Mumbling'
+    },
+    {
+        to: '/function-in-a-function',
+        path: 'function-in-a-function',
+        Component: FunctionInAFunction,
+        name: 'Function in a Function'
     }
 ];
